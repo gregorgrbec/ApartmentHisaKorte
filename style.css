@@ -1,0 +1,102 @@
+/* * {
+    border: 1px solid black;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    justify-content: space-between ;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.main div{
+    display: flex;
+    justify-content: center;
+}
+
+.header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.header-bottom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+a {
+    /* margin: 8px; */
+    text-decoration: none;
+    color: black;
+    align-self: center;
+    font-family: didot;
+}
+
+/* button {
+    height: 40px;
+    width: auto;
+    background-color: blanchedalmond;
+
+} */
+
+#languages {
+    width: 40px;
+    height: auto;
+}
+
+.title {
+    font-size: 50px;
+    font-family: "Snell Roundhand", "Brush Script MT", Cursive;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-family: Didot;
+    margin-top: 50px;
+}
+
+.icon {
+    width: 50;
+    height: auto;
+    align-items: center;
+    margin-bottom: 18px;
+}
+
+p {
+    width: 300px;
+    text-align: center;
+    font-family: didot;
+    margin-bottom: 24px;
+}
+
+
