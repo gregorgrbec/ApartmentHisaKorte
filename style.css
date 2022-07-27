@@ -12,11 +12,17 @@ body {
 .header {
     display: flex;
     flex-direction: column;
-    height: 600px;
+    /* height: 700px; */
     justify-content: space-between ;
-    background-image: url("hisa1.jpeg");
+    /* background-image: url("hisa1.jpeg"); */
     background-size: cover;
     box-shadow: 0px 20px 40px grey;
+}
+
+.picture {
+    width: 100%;
+    /* max-width: 100%; */
+    height: auto;
 }
 
 .main {
@@ -32,25 +38,33 @@ body {
 .header-top {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    height: 90px;
+    /* align-items: baseline; */
+    /* height: 130px; */
     background-color: white;
     box-shadow: 0px 10px 20px black;
     padding-left: 8px;
     padding-right: 8px;
+    padding-top: 8px;
 }
 
-.header-bottom {
+.h-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: white;
+    /* box-shadow: 0px 10px 20px black; */
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* .header-bottom {
     display: flex;
     align-items: center;
     justify-content: center;
     flex: 1;
-}
+} */
 
-
-ul {
-    padding: 20px;
-}
 
 li {
     margin: 8px;
@@ -81,9 +95,18 @@ a {
     height: auto;
 }
 
+
+
 .title {
     font-size: 50px;
     font-family: "Snell Roundhand", "Brush Script MT", Cursive;
+}
+
+@media (max-width: 500px) {
+    .title {
+        font-size: 35px;
+        font-family: "Snell Roundhand", "Brush Script MT", Cursive;
+    }
 }
 
 
@@ -148,10 +171,10 @@ p {
 
 
 @media (max-width: 800px) {
-    .title {
-        font-size: 30px;
+    /* .title {
+        font-size: 40px;
         font-family: "Snell Roundhand", "Brush Script MT", Cursive;
-    }
+    } */
 
     p {
         width: 300px;
@@ -159,5 +182,6 @@ p {
     
     iframe {
         width: fit-content;
+        /* width: max-width; */
     }
 }
