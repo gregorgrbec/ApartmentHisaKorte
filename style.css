@@ -2,6 +2,7 @@
     border: 1px solid black;
 } */
 
+
 body {
     display: flex;
     flex-direction: column;
@@ -46,8 +47,13 @@ body {
     flex: 1;
 }
 
+
+ul {
+    padding: 20px;
+}
+
 li {
-    margin-bottom: 8px;
+    margin: 8px;
 }
 
 a {
@@ -79,6 +85,7 @@ a {
     font-size: 50px;
     font-family: "Snell Roundhand", "Brush Script MT", Cursive;
 }
+
 
 .main {
     display: flex;
@@ -140,3 +147,17 @@ p {
 }
 
 
+@media (max-width: 800px) {
+    .title {
+        font-size: 30px;
+        font-family: "Snell Roundhand", "Brush Script MT", Cursive;
+    }
+
+    p {
+        width: 300px;
+    }
+    
+    iframe {
+        width: fit-content;
+    }
+}
