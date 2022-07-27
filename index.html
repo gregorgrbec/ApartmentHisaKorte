@@ -5,15 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Apartment Hiša Korte</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="change.js"></script>
   </head>
   <body>
     <div class="header">
       <div class="header-top">
         <div>
-          <a href="#">
+          <!-- <a href="tel:051818866" target="_blank">
+            <img src="phone-call.png" alt="contact-number" id="languages" />
+          </a> -->
+          <a href="javascript: change('phone')" id="phone-icon">
             <img src="phone-call.png" alt="contact-number" id="languages" />
           </a>
-          <a href="#">
+          <!-- <a href="mailto:ggrbec@gmail.com" target="_blank">
+            <img src="envelope.png" alt="email" id="languages" />
+          </a> -->
+          <a href="javascript: change('email')" id="email-icon">
             <img src="envelope.png" alt="email" id="languages" />
           </a>
           <a
@@ -139,6 +146,118 @@
       </div>
       <div class="main4">
         <h1>Galerija</h1>
+        <section class="gallery">
+          <div class="gallery__item">
+            <input
+              type="radio"
+              id="img-1"
+              checked
+              name="gallery"
+              class="gallery__selector"
+            />
+            <img class="gallery__img" src="kuhinja.jpeg" alt="kitchen" />
+            <label for="img-1" class="gallery__thumb"
+              ><img src="kuhinja.jpeg" alt="kitchen"
+            /></label>
+          </div>
+          <div class="gallery__item">
+            <input
+              type="radio"
+              id="img-2"
+              name="gallery"
+              class="gallery__selector"
+            />
+            <img class="gallery__img" src="kopalnica.jpeg" alt="bathroom" />
+            <label for="img-2" class="gallery__thumb"
+              ><img src="kopalnica.jpeg" alt="bathroom"
+            /></label>
+          </div>
+
+          <div class="gallery__item">
+            <input
+              type="radio"
+              id="img-4"
+              name="gallery"
+              class="gallery__selector"
+            />
+            <img class="gallery__img" src="dnevna.jpeg" alt="living-room" />
+            <label for="img-4" class="gallery__thumb"
+              ><img src="dnevna.jpeg" alt="living-room"
+            /></label>
+          </div>
+          <div class="gallery__item">
+            <input
+              type="radio"
+              id="img-5"
+              name="gallery"
+              class="gallery__selector"
+            />
+            <img class="gallery__img" src="spalnica.jpeg" alt="bedroom" />
+            <label for="img-5" class="gallery__thumb"
+              ><img src="spalnica.jpeg" alt="bedroom"
+            /></label>
+          </div>
+          <div class="gallery__item">
+            <input
+              type="radio"
+              id="img-6"
+              name="gallery"
+              class="gallery__selector"
+            />
+            <img class="gallery__img" src="spalnica2.jpeg" alt="bedroom2" />
+            <label for="img-6" class="gallery__thumb"
+              ><img src="spalnica2.jpeg" alt="bedroom2"
+            /></label>
+          </div>
+          <div class="gallery__item">
+            <input
+              type="radio"
+              id="img-7"
+              name="gallery"
+              class="gallery__selector"
+            />
+            <img class="gallery__img" src="spalnica3.jpeg" alt="bedroom3" />
+            <label for="img-7" class="gallery__thumb"
+              ><img src="spalnica3.jpeg" alt="bedroom3"
+            /></label>
+          </div>
+          <div class="gallery__item">
+            <input
+              type="radio"
+              id="img-8"
+              name="gallery"
+              class="gallery__selector"
+            />
+            <img class="gallery__img" src="hodnik.jpeg" alt="hallway" />
+            <label for="img-8" class="gallery__thumb"
+              ><img src="hodnik.jpeg" alt="hallway"
+            /></label>
+          </div>
+          <div class="gallery__item">
+            <input
+              type="radio"
+              id="img-9"
+              name="gallery"
+              class="gallery__selector"
+            />
+            <img class="gallery__img" src="hodnik2.jpeg" alt="hallway2" />
+            <label for="img-9" class="gallery__thumb"
+              ><img src="hodnik2.jpeg" alt="hallway2"
+            /></label>
+          </div>
+          <div class="gallery__item">
+            <input
+              type="radio"
+              id="img-3"
+              name="gallery"
+              class="gallery__selector"
+            />
+            <img class="gallery__img" src="spredaj.jpeg" alt="outside" />
+            <label for="img-3" class="gallery__thumb"
+              ><img src="spredaj.jpeg" alt="outside"
+            /></label>
+          </div>
+        </section>
       </div>
     </div>
   </body>
