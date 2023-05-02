@@ -1,22 +1,22 @@
-function change(value) {
-  var phone = document.getElementById("phone-icon");
-  var email = document.getElementById("email-icon");
-  var text = "";
+// if (window.location.pathname.endsWith("index.html")) {
+//   window.history.replaceState(
+//     null,
+//     null,
+//     window.location.pathname.slice(0, -10)
+//   );
+// } else {
+//   window.history.replaceState(
+//     null,
+//     null,
+//     window.location.pathname.slice(0, -17)
+//   );
+// }
 
-  if (value == "phone") {
-    text = "+38656402255";
-    // phone.innerHTML = text;
-    p1 = document.createElement("p");
-    p1.innerHTML = text;
-    p1.classList.add("p1");
-    phone.replaceWith(p1);
-  }
-  if (value == "email") {
-    text = "info@delta-sp.si";
-    // email.innerHTML = text;
-    p2 = document.createElement("p");
-    p2.innerHTML = text;
-    p2.classList.add("p2");
-    email.replaceWith(p2);
-  }
+function changeBG() {
+  document.getElementsByClassName("dropbtn")[0].style.backgroundColor =
+    "#afafaf";
+}
+
+function changeBGback() {
+  document.getElementsByClassName("dropbtn")[0].style.backgroundColor = "white";
 }

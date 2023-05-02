@@ -9,143 +9,160 @@
   </head>
   <body>
     <div class="header">
-      <div class="header-top">
-        <div>
-          <!-- <a href="tel:051818866" target="_blank">
-            <img src="phone-call.png" alt="contact-number" id="languages" />
-          </a> -->
-          <a href="javascript: change('phone')" id="phone-icon">
-            <img src="phone-call.png" alt="contact-number" id="languages" />
-          </a>
-          <!-- <a href="mailto:ggrbec@gmail.com" target="_blank">
-            <img src="envelope.png" alt="email" id="languages" />
-          </a> -->
-          <a href="javascript: change('email')" id="email-icon">
-            <img src="envelope.png" alt="email" id="languages" />
-          </a>
-          <a
-            href="https://www.booking.com/hotel/si/hisa-korte.sl.html"
-            target="_blank"
-            ><img src="booking.svg" alt="booking.com" id="languages"
-          /></a>
+      <div class="header-upper">
+        <div class="header-top">
+          <div>
+            <a
+              href="https://www.booking.com/hotel/si/hisa-korte.sl.html"
+              target="_blank"
+              ><img src="icons/booking.svg" alt="booking.com" id="languages"
+            /></a>
+            <a href="tel:051818866" target="_blank">
+              <img
+                src="icons/phone-call.png"
+                alt="contact-number"
+                id="languages"
+              />
+            </a>
+            <a href="mailto:ggrbec@gmail.com" target="_blank">
+              <img src="icons/envelope.png" alt="email" id="languages" />
+            </a>
+          </div>
+          <div class="dropdown">
+            <button class="dropbtn" onmouseover="changeBG()" onmouseout="changeBGback()">
+              <img src="/icons/italy.png" alt="Italy Flag">
+            </button>
+            <div class="dropdown-content" onmouseover="changeBG()" onmouseout="changeBGback()">
+              <a href="index.html">
+                <img src="icons/slo.png" alt="Slovenia Flag">
+
+              </a>
+              <a href="ger.html">
+                <img src="icons/german.png" alt="Germany Flag">
+
+              </a>
+              <a href="eng.html">
+                <img src="icons/uk.png" alt="UK Flag">
+
+              </a>
+              <!-- add more countries here -->
+            </div>
+          </div>
+          
+          </div>
         </div>
-        <div>
-          <a href="index.html">
-            <img src="slo.png" alt="slovenian" id="languages" />
-          </a>
-          <a href="en.html">
-            <img src="uk.png" alt="english" id="languages" />
-          </a>
-          <a href="ger.html">
-            <img src="german.png" alt="german" id="languages" />
-          </a>
+        <div class="h-title">
+          <a href="#" rel="homepage" class="title">Apartment Hiša Korte</a>
         </div>
-      </div>
-      <div class="h-title">
-        <a href="#" rel="homepage" class="title">Apartment Hiša Korte</a>
       </div>
       <div class="header-bottom">
-        <img src="hisa1.jpeg" alt="house" class="picture" />
+        <!-- <div class="shadow"></div> -->
+        <img src="pictures/hisa1.jpeg" alt="house" class="picture" />
       </div>
     </div>
-
     <div class="main">
       <div class="main1">
-        <h1>Nostra ubicazione</h1>
-        <img class="icon" src="location.png" alt="location-icon" />
-        <p>Siamo ubicati a Korte, Izola.</p>
-        <iframe
+        <h1>Kje se nahajamo</h1>
+        <img class="icon" src="icons/location.png" alt="location-icon" />
+        <p>
+          Nahajamo se v idilični metropoli imenovani Korte, ki so glavno mesto
+          občine Izola.
+        </p>
+ <div class="google-map">
+          <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d342.4339180117245!2d13.656784888105975!3d45.48927322264554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x477b643b763fcc1f%3A0x4c5bfbd7e02b689b!2sKorte%2038a%2C%206310%20Izola%20-%20Isola!5e0!3m2!1sen!2ssi!4v1658841228175!5m2!1sen!2ssi"
-          width="750"
+          width="600"
           height="400"
           style="border: 0"
           allowfullscreen=""
           loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
+        </div>
+
+        
+
+        
       </div>
 
       <div class="main2">
-        <h1>Nostra offerta</h1>
-        <img class="icon" src="home.png" alt="home-icon" />
+        <h1>Kaj nudimo</h1>
+        <img class="icon" src="icons/home.png" alt="home-icon" />
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged.
+          Nudimo apartma velikosti 100m2 s tremi spalnicami, ki omogoča bivanje
+          6 oseb. Maš kar češ res. Od pralnih in pomivalnih strojev do kamina pa
+          televizijo. Še banjo in tuš imaš da lahko izbiraš.
         </p>
       </div>
       <div id="main2-1">
         <div class="icons-mini">
-          <img src="area2.jpg" alt="area" class="icons-mini" />
+          <img src="icons/area2.jpg" alt="area" class="icons-mini" />
           <p class="p-icons">100m<sup>2</sup></p>
         </div>
         <div class="icons-mini">
-          <img src="person.png" alt="6persons" class="icons-mini" />
-          <p class="p-icons">6 persone</p>
+          <img src="icons/person.png" alt="6persons" class="icons-mini" />
+          <p class="p-icons">Do 6 oseb</p>
         </div>
         <div class="icons-mini">
-          <img src="ac.png" alt="air-conditioning" class="icons-mini" />
-          <p class="p-icons">Aria condizionata</p>
+          <img src="icons/ac.png" alt="air-conditioning" class="icons-mini" />
+          <p class="p-icons">Klimatska naprava</p>
         </div>
       </div>
       <div id="main2-1">
         <div class="icons-mini">
-          <img src="wifi.png" alt="Wi-Fi" class="icons-mini" />
-          <p class="p-icons">Gratuito Wi-Fi</p>
+          <img src="icons/wifi.png" alt="Wi-Fi" class="icons-mini" />
+          <p class="p-icons">Brezplačen Wi-Fi</p>
         </div>
         <div class="icons-mini">
-          <img src="parking.png" alt="parking" class="icons-mini" />
-          <p class="p-icons">Gratuito parcheggio privato</p>
+          <img src="icons/parking.png" alt="parking" class="icons-mini" />
+          <p class="p-icons">Brezplačno privatno parkirišče</p>
         </div>
         <div class="icons-mini">
-          <img src="balcony.png" alt="balcony" class="icons-mini" />
-          <p class="p-icons">Balcone con vista sul giardino</p>
+          <img src="icons/balcony.png" alt="balcony" class="icons-mini" />
+          <p class="p-icons">Balkon s pogledom na vrt</p>
         </div>
       </div>
       <div class="main3">
-        <h1>Attrazioni vicini</h1>
-        <img class="icon" src="near.png" alt="attraction-icon" />
+        <h1>Atrakcije v bližini</h1>
+        <img class="icon" src="icons/near.png" alt="attraction-icon" />
         <ul>
           <li>
             <a
-              href="https://map.kastelir.eu/en/node/645"
+              href="https://map.kastelir.eu/sl/node/645"
               target="_blank"
               id="attractions"
-              >Kaštelir - hill with a 5000-year history
+              >Kaštelir - vzpetina s 5000-letno zgodovino
             </a>
           </li>
           <li>
             <a
-              href="https://www.portoroz.si/it/scopri/pirano"
+              href="https://www.portoroz.si/si/odkrij/piran"
               target="_blank"
               id="attractions"
-              >Pirano - tipica città medievale</a
+              >Piran - značilno srednjeveško mesto</a
             >
           </li>
           <li>
             <a
-              href="https://www.parenzana.info/home.html"
+              href="https://www.parenzana.info/"
               target="_blank"
               id="attractions"
-              >Parenzana - famous cycling route</a
+              >Parenzana - famozna kolesarska pot</a
             >
           </li>
           <li>
             <a
-              href="https://www.portoroz.si/it/esperienze/le-bellezze-naturali/4457-object-krajinski-park-secoveljske-soline"
+              href="https://www.portoroz.si/si/dozivi/naravne-znamenitosti/4457-object-krajinski-park-secoveljske-soline"
               target="_blank"
               id="attractions"
-              >Parco paesaggistico delle Saline di Sicciole</a
+              >Krajinski park Sečoveljske soline</a
             >
           </li>
-          <li class="mar">E tante altre ...</li>
+          <li class="mar">In številne druge ...</li>
         </ul>
       </div>
       <div class="main4">
-        <h1>Galleria</h1>
+        <h1>Galerija</h1>
         <section class="gallery">
           <div class="gallery__item">
             <input
@@ -155,9 +172,13 @@
               name="gallery"
               class="gallery__selector"
             />
-            <img class="gallery__img" src="kuhinja.jpeg" alt="kitchen" />
+            <img
+              class="gallery__img"
+              src="pictures/kuhinja.jpeg"
+              alt="kitchen"
+            />
             <label for="img-1" class="gallery__thumb"
-              ><img src="kuhinja.jpeg" alt="kitchen"
+              ><img src="pictures/kuhinja.jpeg" alt="kitchen"
             /></label>
           </div>
           <div class="gallery__item">
@@ -167,9 +188,13 @@
               name="gallery"
               class="gallery__selector"
             />
-            <img class="gallery__img" src="kopalnica.jpeg" alt="bathroom" />
+            <img
+              class="gallery__img"
+              src="pictures/kopalnica.jpeg"
+              alt="bathroom"
+            />
             <label for="img-2" class="gallery__thumb"
-              ><img src="kopalnica.jpeg" alt="bathroom"
+              ><img src="pictures/kopalnica.jpeg" alt="bathroom"
             /></label>
           </div>
 
@@ -180,9 +205,13 @@
               name="gallery"
               class="gallery__selector"
             />
-            <img class="gallery__img" src="dnevna.jpeg" alt="living-room" />
+            <img
+              class="gallery__img"
+              src="pictures/dnevna.jpeg"
+              alt="living-room"
+            />
             <label for="img-4" class="gallery__thumb"
-              ><img src="dnevna.jpeg" alt="living-room"
+              ><img src="pictures/dnevna.jpeg" alt="living-room"
             /></label>
           </div>
           <div class="gallery__item">
@@ -192,9 +221,13 @@
               name="gallery"
               class="gallery__selector"
             />
-            <img class="gallery__img" src="spalnica.jpeg" alt="bedroom" />
+            <img
+              class="gallery__img"
+              src="pictures/spalnica.jpeg"
+              alt="bedroom"
+            />
             <label for="img-5" class="gallery__thumb"
-              ><img src="spalnica.jpeg" alt="bedroom"
+              ><img src="pictures/spalnica.jpeg" alt="bedroom"
             /></label>
           </div>
           <div class="gallery__item">
@@ -204,9 +237,13 @@
               name="gallery"
               class="gallery__selector"
             />
-            <img class="gallery__img" src="spalnica2.jpeg" alt="bedroom2" />
+            <img
+              class="gallery__img"
+              src="pictures/spalnica2.jpeg"
+              alt="bedroom2"
+            />
             <label for="img-6" class="gallery__thumb"
-              ><img src="spalnica2.jpeg" alt="bedroom2"
+              ><img src="pictures/spalnica2.jpeg" alt="bedroom2"
             /></label>
           </div>
           <div class="gallery__item">
@@ -216,9 +253,13 @@
               name="gallery"
               class="gallery__selector"
             />
-            <img class="gallery__img" src="spalnica3.jpeg" alt="bedroom3" />
+            <img
+              class="gallery__img"
+              src="pictures/spalnica3.jpeg"
+              alt="bedroom3"
+            />
             <label for="img-7" class="gallery__thumb"
-              ><img src="spalnica3.jpeg" alt="bedroom3"
+              ><img src="pictures/spalnica3.jpeg" alt="bedroom3"
             /></label>
           </div>
           <div class="gallery__item">
@@ -228,9 +269,13 @@
               name="gallery"
               class="gallery__selector"
             />
-            <img class="gallery__img" src="hodnik.jpeg" alt="hallway" />
+            <img
+              class="gallery__img"
+              src="pictures/hodnik.jpeg"
+              alt="hallway"
+            />
             <label for="img-8" class="gallery__thumb"
-              ><img src="hodnik.jpeg" alt="hallway"
+              ><img src="pictures/hodnik.jpeg" alt="hallway"
             /></label>
           </div>
           <div class="gallery__item">
@@ -240,9 +285,13 @@
               name="gallery"
               class="gallery__selector"
             />
-            <img class="gallery__img" src="hodnik2.jpeg" alt="hallway2" />
+            <img
+              class="gallery__img"
+              src="pictures/hodnik2.jpeg"
+              alt="hallway2"
+            />
             <label for="img-9" class="gallery__thumb"
-              ><img src="hodnik2.jpeg" alt="hallway2"
+              ><img src="pictures/hodnik2.jpeg" alt="hallway2"
             /></label>
           </div>
           <div class="gallery__item">
@@ -252,9 +301,13 @@
               name="gallery"
               class="gallery__selector"
             />
-            <img class="gallery__img" src="spredaj.jpeg" alt="outside" />
+            <img
+              class="gallery__img"
+              src="pictures/spredaj.jpeg"
+              alt="outside"
+            />
             <label for="img-3" class="gallery__thumb"
-              ><img src="spredaj.jpeg" alt="outside"
+              ><img src="pictures/spredaj.jpeg" alt="outside"
             /></label>
           </div>
         </section>
